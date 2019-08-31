@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: aqua;
+}
+
+nav {
+    background-color: #00b1ff;
+}
+nav ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(#00b1ff, #ff8937);
+}
+
+header div {
+    margin: 0 8.3% 0 8.3%;
+    width: 40%;
+}
+
+Header img {
+    height: 50vh;
+
+}
+
+img{
+    /*width: 10vw; */
+    height: 30vh;
+    margin: 20px;
+}
+
+#benefits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0 8.3% 0 8.3%;
+    border-radius: 20px;
+    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+    padding:0 4.2% 7% 4.2%;
+}
+
+#benefits article{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    /* padding: 2.1%; */
+}
+
