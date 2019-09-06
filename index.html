@@ -9,9 +9,10 @@
 </head>
 <body>
     <nav>
+        <img id="logo" src="./images/Logo@3x.png" alt="running shoe">
         <ul>
             <li><a href="">About</a> </li>
-            <li><a href="">Training</a> </li>
+            <li><a href="#training">Training</a> </li>
             <li><a href="#testimonials">Testimonials</a> </li>
         </ul>
     </nav>
@@ -23,7 +24,7 @@
                 veniam, quis nostrud exercitation ullamco laboris nisi.
             </p>
             <form action="">
-                <input type="text" placeholder="Enter your email">
+                <input type="text" placeholder="Enter your email address">
                 <button>Subscribe now</button>
             </form>
         </div>
@@ -33,6 +34,7 @@
         <article>
             <img src="./images/fun.svg" alt="fun illustration">
             <h3>Fun</h3>
+            <div></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
@@ -42,6 +44,7 @@
         <article>
                 <img src="./images/challenge.svg" alt="illustration climbing a mountain">
                 <h3>Challenging</h3>
+                <div></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
@@ -51,6 +54,7 @@
             <article>
                     <img src="./images/motivational.svg" alt="fist in the air">
                     <h3>Motivational</h3>
+                    <div></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
@@ -58,12 +62,12 @@
                     </p>
                 </article>
     </section>
-    <section>
-        <div>
+    <section id="training">
+        <div id="circle">
             <img src="./images/clay-white@3x.png" alt="phone displaying a person running">
         </div>
         <article>
-            <h2>Get the best trining tips!</h2>
+            <h2>Get the best training tips!</h2>
             <h3>Running is not about being better than someone else, 
                 it's about being better than you used to be.
             </h3>
@@ -78,39 +82,35 @@
         </article>
     </section>
     <section id="testimonials">
-        <div>
-            <h3>What other runners say</h3>
+        <div id="quotemarks">
+            <h6>What other <br /> runners say</h6>
         </div>
-        <div>
-            <div>
+        <div id="right-column">
+            <div class="cards">
                 <article>
-                    <div>
-                        <img src="./images/manavatar@3x.png" alt="Man avatar">
+                        <img class="avatar" src="./images/manavatar@3x.png" alt="Man avatar">
                         <h4>Roberto Rowe</h4>
                         <h5>Lincensed Embalmer</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Curabitur sit amet elementum erat, sit amet condimentum enim. 
                             Ut non tempor dolor. Curabitur a lacinia magna. 
                         </p>
-                    </div>
-                    <img src="./images/first-avatar@3x.png" alt="runners on the street">
+                        <img class="bottom image" src="./images/first-avatar@3x.png" alt="runners on the street">
                 </article>
                 <article>
-                    <div>
-                        <img src="./images/woman-avatar@3x.png" alt="Woman avatar">
+                        <img class="avatar" src="./images/woman-avatar@3x.png" alt="Woman avatar">
                         <h4>Julian Francis</h4>
                         <h5>Quality Control Chemist</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Curabitur sit amet elementum erat, sit amet condimentum enim. 
                             Ut non tempor dolor. Curabitur a lacinia magna. 
                         </p>
-                    </div>
-                    <img src="./images/second-avatar@3x.png" alt="two happy women">
+                        <img class="bottom image" src="./images/second-avatar@3x.png" alt="two happy women">
                 </article>
             </div>
         </div>
     </section>
-    <section>
+    <section id="registration">
         <h2>Sign up today and get an early registration notice!</h2>
         <form action="">
             <input type="text" placeholder="Enter your email address">
@@ -119,7 +119,7 @@
     </section>
     <footer>
         <p>© 2019 Orange All Right Reserved</p>
-        <p><a href="">Benefit</a> / <a href="">Pricing</a> / <a href="">Testimonials</a> </p>
+        <p id="footer-nav"><a href="#benefits">Benefits</a> / <a href="">Pricing</a> / <a href="#testimonials">Testimonials</a> </p>
     </footer>
 </body>
 </html>
