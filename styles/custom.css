@@ -433,6 +433,7 @@ footer a {
         padding: 18px 40px 18px 25px;
         -webkit-box-sizing:border-box;
         -webkit-appearance: none;
+        display: block;
         background-color: #ffffff;
         text-align: left;
         text-decoration: none;
