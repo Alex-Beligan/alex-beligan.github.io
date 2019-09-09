@@ -100,7 +100,7 @@ nav ul a{
 
 /* hero area (header)*/
 
-header{
+header {
     height: 137vh;
     display: flex;
     flex-direction: row;
@@ -472,10 +472,10 @@ footer a {
 
     /* Header (hero area) */
 
-
+    
     header{
         width: 100%;
-        height: 120vh;
+        height: 137vh;
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
@@ -688,7 +688,7 @@ footer a {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 0 0 0 -22%;
+        margin: 0 0 0 -25%;
         overflow-x: auto;
         padding-left: 5%;
     }
