@@ -414,6 +414,10 @@ footer a {
 
 @media only screen and (max-width: 500px) {
 
+    html {
+        scroll-behavior: smooth;
+      }
+
     button {
         width: 100%;
         padding: 5%;
